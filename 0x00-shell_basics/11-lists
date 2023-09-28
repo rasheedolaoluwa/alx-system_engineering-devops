@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Sal /alx-system_engineering-devops/0x00-shell_basics
+find 0x00-shell_basics alx-system_engineering-devops /boot -maxdepth 1 -type f -exec ls -al {} +
