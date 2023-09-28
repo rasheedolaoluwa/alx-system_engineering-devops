@@ -1,2 +1,1 @@
-Project: 0x00" > README.md
-
+Project: 0x00
