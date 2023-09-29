@@ -1,2 +1,2 @@
 #!/bin/bash
-(find . -maxdepth 1 -name '[!.]*' -printf '%y %f\n' | sort -t' ' -k1,1 -k2d,2 | awk '{ if ($1 == "d") { print $2"/" } else { print $2 } }'; echo "") | paste -sd',' -
+ls -Am | sed 's/\(.*\)\//\1\//' | tr ',' '\n' | sort -n
