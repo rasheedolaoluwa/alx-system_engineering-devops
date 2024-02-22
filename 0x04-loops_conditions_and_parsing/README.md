@@ -1,1 +1,1 @@
-readme for loops conditions and parsing
+readme update for loops and conditions parsing
