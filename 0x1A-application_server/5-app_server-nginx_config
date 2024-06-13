@@ -25,12 +25,12 @@ server {
 
         # Configure /2-hbnb route of Airbnb clone 4 as root location
         location / {
-                proxy_pass http://127.0.0.1:5003/2-hbnb:
+                proxy_pass http://127.0.0.1:5003/2-hbnb;
         }
 
         # Serve static content for AirBnB_clone_v4
         location /static {
-                alias web_dynamic/static/:
+                alias web_dynamic/static/;
         }
 
         error_page 404 /404.html;
